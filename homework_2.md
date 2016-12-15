@@ -1,7 +1,7 @@
 # Homeworks1-2
 
 
-##Придумать и написать любой пример использования if-elseif-else.
+###Придумать и написать любой пример использования if-elseif-else.
 
 
 
@@ -19,7 +19,7 @@
 
 
 
-/*Переписать скрипт оператора switch->case->break так, чтобы использовалась конструкция if->elseif->else.
+###Переписать скрипт оператора switch->case->break так, чтобы использовалась конструкция if->elseif->else.
 
     switch ($mark) {
         case 2:
@@ -70,8 +70,7 @@
     }
 
 
-    //5)
-    //Придумать и написать любой пример использования тернарного оператора.
+###Придумать и написать любой пример использования тернарного оператора.
 
      print (date(s) <=15) ? " Твоя скорость в пределах нормы = ".date(s)."км/ч"
         ?:(date(s) <=30) ?: " Твоя скорость в пределах нормы = ".date(s)."км/ч"
@@ -85,25 +84,25 @@
 
 
 
-    //ЗАДАЧА FIZZ-BIZZ
-    $handle = fopen("php://stdin","r");
-    $mark = fgets($handle);
-    $result = explode(" ", $mark);
+###ЗАДАЧА FIZZ-BIZZ
+            $handle = fopen("php://stdin","r");
+            $mark = fgets($handle);
+            $result = explode(" ", $mark);
 
-    for ($i = 1; $i <= $result[2]; $i++) {
+            for ($i = 1; $i <= $result[2]; $i++) {
 
-    if ($i % $result[0] == 0 && $i % $result[1] == 0) {
-        echo "FB ";
+            if ($i % $result[0] == 0 && $i % $result[1] == 0) {
+                echo "FB ";
 
-    } elseif ($i % $result[0] == 0) {
-        echo "F ";
-    } elseif ($i % $result[1] == 0) {
-        echo "B ";
-    } else {
-        echo $i . " ";
-    }
+            } elseif ($i % $result[0] == 0) {
+                echo "F ";
+            } elseif ($i % $result[1] == 0) {
+                echo "B ";
+            } else {
+                echo $i . " ";
+            }
 
-    }
+            }
 
 
 
