@@ -49,10 +49,11 @@
         echo "YeeeeWhaaaa!!!!";
     }
     echo "\n";
-    /////////////////////////////////
-    //3)
-    //Переписать скрипт оператора if->elseif->else так, чтобы использовалась конструкция switch->case->break.
-    //Переменные взяты с fizz-bizz задачи.
+
+
+
+##Переписать скрипт оператора if->elseif->else так, чтобы использовалась конструкция switch->case->break.Переменные взяты с fizz-bizz задачи.
+    
 
     switch (isset($result[0]) && isset($result[1])){
         case ($i%$result[0]==0 && $i%$result[1]==0):
